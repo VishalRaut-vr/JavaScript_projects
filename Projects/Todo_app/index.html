@@ -5,19 +5,20 @@
     <link rel="stylesheet" href="todo.css">
 </head>
 <body>
-    <h1 id="heading">TO-DO APP</h1>
-  
-    <div class="grid_conatiner">
-    <input type="text" placeholder="Enter ToDo here" id="Todo_input">
-    <input type="date" onclick="this.showPicker()" placeholder="Enter ToDo here" id="date_input">
 
-    <button onclick="addToDo();" class="btn_add">Add</button>
+<div class="container">
+    <h1>📝 To-Do App</h1>
 
+    <div class="input_section">
+        <input type="text" placeholder="Enter task..." id="todo_input">
+        <input type="date" id="date_input">
+        <button onclick="addTodo()" class="btn_add">Add</button>
     </div>
 
-    <div class="todo_conatainer grid_conatiner"></div>
-    <script src="todo.js">
+    <div id="todo_container"></div>
+</div>
 
-    </SCript>
+<script src="todo.js"></script>
+
 </body>
 </html>
