@@ -1,1 +1,39 @@
-/* css here */
+/* #container{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#display{
+    margin: 10px;
+    width: 85%;
+}
+#buttom_container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.button{
+    margin: 3px;
+    height: 45px;
+    width: 45px;
+} */
+
+#container{
+    width: 200px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#display{
+    margin: 10px;
+    width: 85%;
+}
+.button{
+    margin: 3px;
+    height: 45px;
+    width: 45px;
+}
+#button_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
